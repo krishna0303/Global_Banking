@@ -2,8 +2,10 @@ body>table {
     width: 80%;
 }
 
+
 table {
     border-collapse: collapse;
+    width: 900px;
 }
 
 table.list {
@@ -11,14 +13,12 @@ table.list {
 }
 
 .container {
-    padding: 4em;
-    max-width: 1200px;
+    padding: 5em;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
-h1 {
-    text-align: center;
-}
+
 
 td,
 th {
@@ -55,9 +55,7 @@ input[type=submit] {
 }
 
 form div.form-action-buttons {
-    /* text-align: center; */
-    padding: 6em;
-    margin: 4 auto;
+    text-align: right;
 }
 
 a {
@@ -74,4 +72,8 @@ label.validation-error {
 
 .hide {
     display: none;
+}
+
+h1 {
+    margin: 10px;
 }
